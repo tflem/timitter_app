@@ -1,4 +1,4 @@
-# Timitter! - A Ruby on Rails Sample Application
+# Tim's Corner - A Ruby on Rails Sample Application
 
 This is the sample application for
 [*Ruby on Rails Tutorial:

@@ -12,10 +12,10 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_select "title", "#{@base_title}"
   end
 
-  test "should get help" do
-    get help_path
+  test "should get sign up" do
+    get signup_path
     assert_response :success
-    assert_select "title", "Help | #{@base_title}"
+    assert_select "title", "Sign Up | #{@base_title}"
   end
 
   test "should get about" do
